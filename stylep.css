@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+/*Stil pentru container*/
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/*Stil pentru navbar*/
+
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Stil pentru logo*/
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+/*Stil pentru lista si nav*/
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 33px;
+}
+
+
+/*Stil pentru ROW*/
+
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 60%;
+}
+
+/*Stil pentru H1*/
+
+h1{
+    color: white;
+    font-size: 90px;
+}
+
+/*Stil pentru P*/
+
+p{
+    color:white;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+/*Stil pentru Card*/
+
+.card1{
+    width: 280px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(panousolar1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    width: 280px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(panousolar2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    width: 280px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(panousolar3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card4{
+    width: 280px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(panousolar4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card5{
+    width: 280px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(panousolar5.png);
+    background-position: center;
+    background-size: cover;
+}
+.card6{
+    width: 280px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(panousolar6.jpg);
+    background-position: center;
+    background-size: cover;
+}
